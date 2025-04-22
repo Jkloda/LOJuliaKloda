@@ -1,3 +1,10 @@
+
+I refactored Indexer.py, modified search_similar method, which now returns a list of movie information strings. It ensure the query input is a string and raises a ValueError if it's a boolean.
+I also add error handlingchanged __init__ method, which includes try-except blocks when attempting to read the 'movie_index' file and 'movie_metadata.json' is not found, an empty self.metadata dictionary is initialized, and a message is printed. This makes the class more robust to missing files.
+I removed the dependency on GPU resources for Faiss indexing as my hardware was only able to use CPU. While GPUs can offer performance benefits for large-scale vector search, the current deployment environment necessitates a CPU-only solution. I’m planning to explore the possibility of using GPU as it would impact on performance especially that database is expected to grow.
+
+
+
 I refactored the SemanticSearchBar to create search input (genre and query), improved UX and backend integration. The component is now more efficient, with loading states and error handling, and more extensible. I also introduced accessibility improvements and moved formatting logic into a dedicated hook, separating concerns for better maintainability.
 
 I refactored the /api/search route to improve efficiency. It's now more maintainable and extensible, with clearly separated logic paths for genre- and search-based recommendations. The new structure also scales better thanks to proper async handling and improved error.
