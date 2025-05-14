@@ -1,4 +1,6 @@
-### Evaluation of employer's business objectives and strategy
+### Evaluate an employer's business objectives and strategy and its position in the market and how an employer adds value to its clients through its services and/or products it provides.
+
+Just Pick is entering a competitive market, but compared to others, our project understand natural language inputs. This capability enables personalized experience, positioning Just Pick as an user-centric alternative.   
 
 Business objectives:
 
@@ -17,3 +19,4 @@ Value to its client:
 - users don't waste time scrolling, they get recommendation by favourite movies
 - increase satisfaction by understanding user preferences through natural language
 - entertainment satisfaction by providing content, which fits their taste
+
